@@ -1,0 +1,28 @@
+Tree Map
+Gauge Chart
+
+Cards:
+Number card
+Text Card
+Date Card
+Multi-row card
+
+Filters:
+Filter on Visual
+Filter on Page
+Filter on all Pages
+Drill through
+
+Highest Selling Sub-Category: Phones
+Highest Profitable Sub-Category:Copiers
+Highest Quantity Sub-Category: Binders
+
+Highest Sales were on Tue, 18 Mar 2014
+Highest Profit was on Sun, 02 Oct 2016
+
+
+
+
+
+
+

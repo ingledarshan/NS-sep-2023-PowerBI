@@ -1,0 +1,66 @@
+Multi-Row Card
+
+Filter on Visual
+Filter on Page
+Filter on all Pages
+
+Drillthrough in Power BI
+
+Power Query
+
+Text Functions: Merge, Split, Trim, Upper, Lower, Proper, Suffix, Prefix, Left, Right, Mid, Extract text with Delimiter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

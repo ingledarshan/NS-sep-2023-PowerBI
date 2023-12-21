@@ -1,0 +1,60 @@
+Advanced Charts:
+Animated Bar Chart Race
+Drill Down Donut Chart
+Drill Down Column Chart
+Word Cloud
+Infographic
+Play Axis
+Scroller
+Sunburst Chart
+Histogram -> HomeWork for Self Exploration
+
+DAX:
+Data Analysis Expressions are collection of functions that can be used to perform a task and return one or more values.
+DAX is designed for enhancing data modeling, reporting and analytics capability.
+
+DAX in PBI is used for 2 things:
+1. Calculated Columns
+2. Calculated Measures
+
+DAX: Whole No, Decomal No, Boolean, Text, Date, Currency, Blank
+
+DAX Function Category: more than 200 DAX functions
+9 categories:
+1. Aggregation
+2. Date and Time
+3. Filter
+4. Information Function
+5. Logical Functions
+6. Math and Trig
+7. Parent-child
+8. Relationships management function
+9. Table manipulation
+10. Text
+11. Time Intelligence
+
+DAX Parameter Names:
+Expression: returns a single scalar value
+Value
+Table
+tableName
+columnName
+Name
+Order
+Type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

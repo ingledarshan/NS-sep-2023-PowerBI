@@ -1,0 +1,46 @@
+HOME WORK:
+MIN:
+MIN(column)
+returns the smallest value in the column
+It can find the min value from columns of following datatypes only: Numbers, Text, Dates, Blanks
+When comparing expressions, blank is treated as 0 when comparing. That is, MIN(1, BLANK()) returns 0, and MIN(-1, BLANK()) returns -1.
+If both arguments are BLANK, MIN returns a BLANK.
+
+If you want to evaluate a column of TRUE/FALSE values, use the MINA().
+
+MINA
+It works on Numbers, Dates and Logical values.
+
+MINX
+It returns the samllest value that results FROM EVALUATING AN EXPRESSION for each row of a table.
+Strings are compared according to alphabetical order.
+
+SYntax:
+MINX(table, expression)
+
+Blank values are skipped. TRUE/FALSE values are not supported.
+
+
+DATEDIFF
+Returns the number of units (unit specified in interval) between input two dates.
+Syntax: DATEDIFF(Date1, Date2, Interval)
+Interval - SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR.
+
+HOME WORK:
+SUMMARIZE
+SIGN IN TO POWERBI(mandatory for next class)
+SELECTCOLUMNS vs ADDCOLUMNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+

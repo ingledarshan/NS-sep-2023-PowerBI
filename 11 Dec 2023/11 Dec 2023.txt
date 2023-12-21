@@ -1,0 +1,118 @@
+Calculation Engine:
+1. Aggregators: SUM, AVERAGE, MIN, MAX and COUNT
+They look at the entire column left over after the context is placed in a formula
+
+Syntax: SUM(Table Column Name)
+
+2. Iterators: They have 'X' at the end, like SUMX.
+If you want to filter the data which you are adding, then you need to use the SUMX function
+
+Syntax: SUMX(Table, Expression)
+
+Split a column
+
+FIND: returns the starting position of one text within another text string.
+
+Syntax: FIND(FindText, WithinText, StartPosition, NotFoundValue)
+
+eg: D A R S H A N
+    1 2 3 4 5 6 7 
+
+FIND("SHAN", "DARSHAN")
+Result: 4th position
+
+FIND("A", "DARSHAN", 3)
+Result: 6th position
+
+FIND("P", "DARSHAN", 3, -1)
+Result: -1
+
+LEFT: returns the specified number of characters from the start of a text string.
+
+Syntax: LEFT(FindText, NumofChars)
+
+eg: D A R S H A N
+    1 2 3 4 5 6 7 
+
+LEFT("DARSHAN",5) 
+Result: DARSH
+
+RIGHT: returns the specified number of characters from the start of a text string.
+
+Syntax: RIGHT(FindText, NumofChars)
+
+eg: D A R S H A N
+    1 2 3 4 5 6 7 
+
+LEFT("DARSHAN",4) 
+Result: SHAN
+
+LEN: returns the number of characters in a text string.
+
+Syntax: LEN(FindText)
+
+eg: LEN("DARSHAN")
+Result: 7
+
+Find First Name(KEN):
+
+LEFT("KEN MING", FIND(" ", "KEN MING")-1)
+
+Find " "(space): FIND(" ", "KEN MING") = 4
+
+eg: K E N   M I N G
+    1 2 3 4 5 6 7 8
+
+LEFT("KEN MING", 4-1)
+LEFT("KEN MING", 3) = KEN
+
+Find Last Name(MING):
+
+eg: K E N   M I N G
+    1 2 3 4 5 6 7 8
+
+RIGHT("KEN MING", LEN("KEN MING")-FIND(" ", "KEN MING"))
+
+
+Explaination:
+LEN("KEN MING") = 8
+FIND(" ", "KEN MING") = 4
+
+RIGHT("KEN MING", LEN("KEN MING")-FIND(" ", "KEN MING"))
+i.e.
+RIGHT("KEN MING", 8-4)
+i.e.
+RIGHT("KEN MING", 4)
+i.e. 
+MING
+
+Find Last Name(MING):
+
+eg: S T E V E   J O B S
+    1 2 3 4 5 6 7 8 9 10
+
+RIGHT("STEVE JOBS", LEN("STEVE JOBS")-FIND(" ", "STEVE JOBS"))
+
+
+Explaination:
+LEN("STEVE JOBS") = 10
+FIND(" ", "STEVE JOBS") = 6
+
+RIGHT("STEVE JOBS", LEN("STEVE JOBS")-FIND(" ", "STEVE JOBS"))
+i.e.
+RIGHT("STEVE JOBS", 10-6)
+i.e.
+RIGHT("STEVE JOBS", 4)
+i.e. 
+JOBS
+
+Take Home Q" Find Last name from the Person column in Superstore dataset
+
+
+
+
+
+
+
+
+

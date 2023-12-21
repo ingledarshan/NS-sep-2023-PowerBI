@@ -1,0 +1,7 @@
+Basic Charts:
+Column Chart
+Stacked Column Chart
+Pie Chart
+Donut Chart
+Funnel Chart
+Ribbon Chart

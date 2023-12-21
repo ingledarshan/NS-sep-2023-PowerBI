@@ -1,0 +1,30 @@
+HOME WORK:
+SUMMARIZE
+return a summary table for the requested totals over a set of groups
+
+Syntax:
+SUMMARIZE(table, group by colname)
+
+SUMMARIZECOLUMNS
+This is similar to SUMMARIZE but here we can also apply filters.
+
+Insert Images in PBI:
+
+SIGN IN TO POWERBI(mandatory for next class)
+
+HOME WORK:
+SELECTCOLUMNS vs ADDCOLUMNS
+
+
+
+
+
+
+
+
+
+
+
+
+
+

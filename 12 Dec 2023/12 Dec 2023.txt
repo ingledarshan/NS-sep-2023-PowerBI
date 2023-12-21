@@ -1,0 +1,77 @@
+# CALENDAR vs CALENDARAUTO
+
+>CALENDAR
+
+Syntax:
+CALENDAR(startdate, enddate)
+Returns a Table with a single column named "Date" that contains a contiguous set of dates.
+Returns Error, if startdate>enddate
+
+eg:
+CALENDAR(Date(2020,1,1), Date(2021,12,1))
+
+>CALENDARAUTO
+
+Syntax:
+CALENDARAUTO([FiscalYearEndMonth])
+Note: Whatever we write in square brackets [] is optional.
+
+<FiscalYearEndMonth> Any DAX expression that returns an integer from 1 to 12.
+If you mention the number, then it will start from that number to 12 by default.
+If omitted, then it will start from minimum value to maximum value in calendar table of current user.
+
+https://learn.microsoft.com/en-us/dax/calendarauto-function-dax
+
+eg:
+CALENDARAUTO() - returns all the dates
+CALENDARAUTO(3)
+
+
+Which function should you use?
+
+The function that you should use depends on your specific needs. If you need to generate a table of dates for a specific date range, then you should use the CALENDAR function. If you need to generate a table of dates based on the data in your model, then you should use the CALENDARAUTO function.
+
+Here are some additional things to keep in mind when choosing between CALENDAR and CALENDARAUTO:
+
+The CALENDAR function is more flexible than the CALENDARAUTO function, but it is also more complex to use.
+The CALENDARAUTO function is easier to use than the CALENDAR function, but it is also less flexible.
+The CALENDAR function is more efficient than the CALENDARAUTO function, but it is also more likely to generate errors if your data model is not properly configured.
+
+>COUNT
+counts the number of cells in a column that contains non-blank values.
+Syntax: COUNT(column)
+When the function finds no rows to count, it returns blank.
+
+>COUNTA:
+counts the number of cells in a column that are not empty.
+Syntax:
+COUNTA(column)
+When the function finds no rows to count, it returns blank.
+
+COUNT and COUNTA are identical in DAX for all the datatypes except Boolean.
+
+COUNTA can operate on a Boolean type, whereas COUNT cannot do that.
+
+COUNTBLANK
+
+HOME WORK:
+COUNTROWS
+COUNTDISTINCT
+COUNTAX
+COUNTX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

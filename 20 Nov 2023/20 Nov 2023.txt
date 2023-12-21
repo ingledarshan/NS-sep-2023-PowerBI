@@ -1,0 +1,29 @@
+What is Power BI?
+
+It is a tool which will help you to analyze your data, clean your data, and convert that data into visual format, where you can create different reports and different dashboards.
+
+Components of Power BI:
+1. Power Query: ETL tool which will extract, transform, and load the data.
+2. Power Pivot: It is used for Data Modeling. It is used when you have multiple data sources and if you want to connect them and create relationship between them
+3. Power View: It is used for Visualization. It can create 250+ charts which can be used for presentations, visualizations, and dashboards.
+4. PowerBI Service: It is used for sharing reports with everyone across the world. It will hwlp your user to communicate with each other via that report.
+
+Why PBI?
+1. Search on Google Trends
+2. Maximum Features: You can write 1200 M Functions and DAX functions with PBI. 
+3. Cost: Cheapest tool available in the Gartner Magic Quadrant. It hardly costs $10 per user per month. Bulk purchases are further cheaper.
+4. Data Connectivity: You can connect from 100 different data sources like excel, oracle, sql, zws, json, etc.
+5. Recognized.
+
+
+
+
+
+
+
+
+
+
+
+
+

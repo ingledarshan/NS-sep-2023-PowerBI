@@ -1,0 +1,94 @@
+Page Navigation in PBI
+Bookmark Action in PBI
+
+Create a dashboard with the Superstore dataset.
+Visualizations expected are:
+3 cards: Sum of Sales, Sum of Profit, Sum of Qty
+Table of Sub-Category, Region wise Sales
+Horizontal barchart of Sub-Category wise Sales
+Donut chart of Region wise Profit
+Donut chart of Segment wise Profit
+Donut chart of Category wise Profit
+Add a Slicer for States
+Give a proper title to the dashboard
+The dashboard must have a Dark Theme
+All the above must be on a single page, so your alignment skills as a Data Analyst will be judged here. So make sure, you have a meaningful dashboard which your stakeholders will like to see. It must not be a too-cluttered one.
+Also publish it to PBI Service and set scheduled refresh to 4pm and 9am.
+
+ALL THE BEST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

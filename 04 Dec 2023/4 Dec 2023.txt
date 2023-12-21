@@ -1,0 +1,18 @@
+Power Query
+Text Functions:
+Merge
+Split and Trim
+Upper, Lower and Proper
+Add Suffix and Prefix
+Left, Right and Mid
+Extract text with delimiter
+
+Date Functions:
+Year, Quarter, Month, Day
+Difference between Dates, Earliest and Latest
+Name of Day and Name of Month
+Day of Week/Month/Year and Week of Month/Year
+Extract Date from Date and Time
+Calculate Age in 2 button clicks
+Which day of year, quarter, month, your DOB is?
+

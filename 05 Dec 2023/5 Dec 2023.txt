@@ -1,0 +1,23 @@
+Power Query
+Basic Number Functions
+Add, Sub, Multiply, Divide, Divide(Integer), Modulo
+
+Slicers
+Text Slicers
+Date Slicers
+Number Slicers
+
+Advanced Charts:
+Animated Bar Chart Race
+Drill Down Donut Chart
+Drill Down Column Chart
+Word Cloud
+Infographic
+Play Axis
+Scroller
+Sunburst Chart
+Histogram
+
+
+
+
